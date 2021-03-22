@@ -1,0 +1,18 @@
+.title-deal{
+    font-size: 25px;
+}
+.card-deal{
+    margin-bottom: 34px;
+}
+.deal-error{
+    font-size: 30px;
+    color: red;
+}
+.deal-box{
+    margin-left: 345px;
+    margin-top: -315px;
+}
+.price{
+    font-size: 19px;
+    color: #333333b8;
+}
