@@ -11,10 +11,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
         <div class="row">
             <div class="col-md-4 col-lg-3 navbar-container bg-light">
                 <!-- Вертикальное меню -->
-                <div class="collapse navbar-collapse" id="navbar">
-
+                <div class="collapse navbar-collapse menu-box" id="navbar">
                     <? foreach ($arParams['stages'] as $stage) { ?>
-                        <div class="deal_stage" data-url="<?=$_SERVER['PHP_SELF']?>" data-stageid="<?= $stage ?>"></div>
+                        <div class="deal_stage"  data-url="<?=$_SERVER['PHP_SELF']?>" data-stageid="<?= $stage ?>"></div>
                     <? } ?>
                 </div>
             </div>
